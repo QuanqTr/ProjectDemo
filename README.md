@@ -503,46 +503,6 @@ curl http://localhost:8080/api/v1/students
 # Check browser console for errors
 ```
 
-#### Database connection errors
 
-- Kiểm tra PostgreSQL service đang chạy
-- Verify database credentials trong .env file
-- Ensure database `test_db` đã được tạo
 
-#### CORS errors
 
-- Backend đã có CORS middleware configured
-- Check API_URL trong frontend .env.local
-
-### Performance Tips
-
-- Use database indexes cho frequently queried fields
-- Implement pagination cho large datasets
-- Use connection pooling cho database
-- Optimize bundle size với NextJS
-
-## 🤝 Contributing
-
-1. Fork dự án
-2. Tạo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Follow coding standards và conventions
-4. Write tests cho new features
-5. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-6. Push to branch (`git push origin feature/AmazingFeature`)
-7. Tạo Pull Request
-
-## 📚 Additional Resources
-
-- [NextJS Documentation](https://nextjs.org/docs)
-- [Golang Documentation](https://golang.org/doc/)
-- [GORM Documentation](https://gorm.io/docs/)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 📞 Support
-
-Nếu bạn gặp vấn đề, hãy tạo issue trên GitHub repository.
