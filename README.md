@@ -1,4 +1,4 @@
-# Student Management System - NextJS + Golang + PostgreSQL
+#NextJS + Golang + PostgreSQL
 
 Hệ thống quản lý sinh viên full-stack sử dụng NextJS cho frontend, Golang cho backend API, và PostgreSQL làm cơ sở dữ liệu.
 
